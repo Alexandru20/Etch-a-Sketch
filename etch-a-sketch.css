@@ -1,0 +1,36 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    margin: 0;
+    flex-direction: column;
+    background-color: #111;
+    align-items: center;
+    
+   
+  
+}
+
+.container{
+    width: 30vw;
+    height: 30vw; 
+   
+  
+    display: flex;
+    flex-wrap: wrap;
+    
+     
+    
+}
+
+button{
+    margin :20px;
+    margin-bottom: 200px;
+}
+
+.wrapper{
+    display: flex;
+    margin: 0;
+    border: 2px solid wheat;
+    padding: 2px;
+}
