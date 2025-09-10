@@ -1,16 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Etch-a-Sketch </title>
     <script src="etch-a-sketch.js" defer></script>
     <link rel="stylesheet" href="etch-a-sketch.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
     <button class="reset-button">Reset</button>
-    <div class="wrapper"><div class = "container" id = "con"></div></div>
-    
-    
+    <div class="wrapper">
+        <div class="container" id="con"></div>
+    </div>
+    <footer>
+        <h1>
+            Project Description:
+
+        </h1>
+        <p>
+            This interactive sketchpad project allows users to draw by hovering over a grid of squares, simulating an
+            Etch-A-Sketch.
+            The grid is dynamically generated with JavaScript, using Flexbox for layout, and responds to mouse events to
+            create a pixelated trail.
+            A button prompts users to enter a new grid size (up to 100x100), which replaces the existing grid
+            essentially changing how thick the "brush" looks. For example a grid of 20x20 would produce lines thicker
+            than a grid of 50x50.
+            The project emphasizes DOM manipulation, event handling, and responsive layout using only HTML, CSS, and
+            JavaScript. This project is not optimised for a moblie experience, so I would recommend looking at it on a
+            PC.
+
+        </p>
+    </footer>
+
+
 </body>
+
 </html>

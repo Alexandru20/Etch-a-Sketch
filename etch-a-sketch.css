@@ -1,4 +1,4 @@
-body{
+body {
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -6,31 +6,37 @@ body{
     flex-direction: column;
     background-color: #111;
     align-items: center;
-    
-   
-  
+    color: wheat;
+    font-family: "Lora", serif;
+
+
+
 }
 
-.container{
+.container {
     width: 30vw;
-    height: 30vw; 
-   
-  
+    height: 30vw;
+
+
     display: flex;
     flex-wrap: wrap;
-    
-     
-    
+
+
+
 }
 
-button{
-    margin :20px;
+button {
+    margin: 20px;
     margin-bottom: 200px;
 }
 
-.wrapper{
+.wrapper {
     display: flex;
     margin: 0;
     border: 2px solid wheat;
     padding: 2px;
+}
+
+footer {
+    width: 30vw;
 }
